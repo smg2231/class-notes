@@ -9,3 +9,17 @@ SELECT ProductID, ProductName, CategoryName
 FROM Products
 INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
 example of inner join
+
+SELECT column_name(s) FROM table1
+UNION ALL
+SELECT column_name(s) FROM table2;
+//Union All allows duplicate values
+
+CREATE TABLE Persons (
+    Personid int NOT NULL AUTO_INCREMENT,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    PRIMARY KEY (Personid)
+);
+//Auto Increment increments/counts by 1 for each new record

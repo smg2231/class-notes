@@ -29,3 +29,12 @@ func TestSmallestNumber(t *testing.T) {
 	}
 }  
 //It tests whether the function smallestNumber correctly identifies the smallest number in a slice of integers.
+
+for i := 1; i <= 10; i++ {
+		for j := 1; j <= 10; j++ {
+			for k := 1; k <= 10; k++ {
+				fmt.Println("how many?")
+			}
+		}
+	}
+//multilayered for loop that iterates multiple times
